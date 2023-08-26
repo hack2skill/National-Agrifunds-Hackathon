@@ -11,7 +11,7 @@
   Sahyogi is a simple prototype to demonstrate financial transactions using UPI, USSD and UPI Lite with seamless shifting between them according to network connectivity. As NPCI doesn't provide open APIs for any of these technologies, we are not able to fully integrate this prototype. But the solution, we proposed, is more efficient and robust as it covers every case (Good,Low and No network connectivity as well).
   To explain the usage of API/USSD service, we have given pop-ups in the prototype app. Reading the content of those pop-ups can surely explain our idea. If given a chance to work further and fully implement the idea by assitance in UPI and USSD APIs, we can connect the untouched population, deprived of good network connectivity, connect with banks, manage their funds efficiently and get access to eligible government schemes.
 
-  ![UML Diagram](https://github.com/2504pratik/National-Agrifunds-Hackathon/blob/main/Team%20Sahyogi/sahyogi_uml_diagram.png)
+  ![UML Diagram](https://github.com/2504pratik/National-Agrifunds-Hackathon/tree/main/sahyogi_uml_diagram.png)
   
 ## Tech Stack: 
    XML
