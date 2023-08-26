@@ -11,7 +11,8 @@ Front End - HTML , CSS , JAVA
 Back End - Python
 Step-by-Step Code Execution Instructions:
 I made Directly into Wix and there code conveter is still in development so some feature might not work.
-Link:- https://rebrand.ly/digitalvillagehub
+Website Link:- https://rebrand.ly/digitalvillagehub
+Video Link:- https://youtu.be/Hvxs4jwGrY0
 
 What I Learned:
 Creating a prototype on Wix allowed me to grasp the fundamental elements of my Digital Village Hub concept. I gained hands-on experience in structuring content, visualizing features, and crafting user journeys. This practical exercise deepened my understanding of web design and provided valuable insights for refining the platform's user experience
