@@ -66,5 +66,11 @@
         android:layout_marginTop="24dp"
         android:text="Send Money"
         android:id="@+id/sendMoneyButton"/>
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"/>
 
 </LinearLayout>
