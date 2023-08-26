@@ -2,16 +2,20 @@ package com.example.bankanywhere;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.*;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.Cursor;
 
 public class MainActivity extends AppCompatActivity {
     Button banking,pension,govt;
     TextView legend;
+    SQLiteDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
