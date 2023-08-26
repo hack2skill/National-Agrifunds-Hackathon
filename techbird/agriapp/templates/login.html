@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+{% endblock %}
+
+{% block content %}
+  <div class="form-container">
+    <h2 style="text-align: center; padding-bottom: 1em;padding-top: 2em;" class="form-title">Login</h2>
+    {% if error_message %}
+      <p class="form-error">{{ error_message }}</p>
+    {% endif %}
+    <form method="post">
+      {% csrf_token %}
+      
+      <div class="form-group">
+        <label class="form-label" for="username">Username:</label>
+        <input class="form-input" type="text" id="username" name="username">
+      </div>
+      
+      <div class="form-group">
+        <label class="form-label" for="password">Password:</label>
+        <input class="form-input" type="password" id="password" name="password">
+      </div>
+      
+      <button class="form-button" type="submit">Login</button>
+    </form>
+
+    <div class="register-buttons">
+      <a class="register-button" href="{% url 'farmer_registration' %}">Register as Farmer</a>
+      <a class="register-button" href="{% url 'vendor_registration' %}">Register as Vendor</a>
+    </div>
+  </div>
+{% endblock %}

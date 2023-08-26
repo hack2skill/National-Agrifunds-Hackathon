@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Make Microinsurance Payment</h2>
+  <form method="post">
+    {% csrf_token %}
+    <label for="amount">Payment Amount:</label>
+    <input type="number" id="amount" name="amount"><br/><br/>
+    <button type="submit">Make Payment</button>
+  </form>
+<br/>
+<br/>
+  {% if microinsurance_payments %}
+    <h3>Microinsurance Payments</h3>
+    <ul class="microinsurance-payments summary-item">
+      {% for payment in microinsurance_payments %}
+        <li>Amount: {{ payment.amount }} - Status: Successful</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <style>
+    h3{
+      text-align: center;
+    }
+    .summary-item {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
+    }
+  
+    .summary-item p{
+    font-size: 2em;
+    }
+  </style>
+{% endblock %}

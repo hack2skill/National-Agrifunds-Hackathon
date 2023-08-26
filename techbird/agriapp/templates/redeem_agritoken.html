@@ -1,0 +1,33 @@
+
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="agritoken-redemption">
+        
+        <h2>Your AgriTokens</h2>
+        <ul class="agritoken-list">
+            {% for agri_token in agri_tokens %}
+            <li>Produce: {{ agri_token.produce_type }} - Quantity: {{ agri_token.quantity }} - Total Value: {{ agri_token.total_token_value }}</li>
+            {% endfor %}
+        </ul>
+        
+        <h2>Available Products for Redemption</h2>
+        <form method="post" class="redeem-form">
+            {% csrf_token %}
+            <label for="product">Select Product:</label>
+            <select name="product">
+                {% for product in products %}
+                <option value="{{ product.id }}">{{ product.name }} - Price: {{ product.price_in_tokens }} tokens</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Redeem</button>
+        </form>
+        
+        {% if error_message %}
+        <p class="error-message">{{ error_message }}</p>
+        {% endif %}
+        
+    </div>
+{% endblock %}
