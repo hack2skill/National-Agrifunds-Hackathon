@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.*;
+import android.app.AlertDialog.Builder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -31,10 +32,28 @@ public class GovtActivity extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                aadhar_title.setVisibility(1);
-                aadhar_value.setVisibility(1);
-                auth.setVisibility(1);
+                aadhar_title.setVisibility(View.VISIBLE);
+                aadhar_value.setVisibility(View.VISIBLE);
+                auth.setVisibility(View.VISIBLE);
             }
         });
+        auth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(aadhar_value.getText().length()<10){
+                    showMessage("Error","Enter Valid aadhar number");
+                }
+                else{
+                    showMessage("Authenticate","Biometric Verification will happen now");
+                }
+            }
+        });
+    }
+    public void showMessage(String title,String message){
+        Builder builder=new Builder(this);
+        builder.setCancelable(true);
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.show();
     }
 }

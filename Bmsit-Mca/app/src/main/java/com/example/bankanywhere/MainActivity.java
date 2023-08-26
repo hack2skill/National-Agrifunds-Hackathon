@@ -49,11 +49,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doGovt(){
-        Toast.makeText(this, "Govt", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Govt Schemes", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(this, GovtActivity.class));
     }
     public void doPension(){
-        Toast.makeText(this, "Govt", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Pension Service", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(this,PensionActivity.class));
     }
 }
