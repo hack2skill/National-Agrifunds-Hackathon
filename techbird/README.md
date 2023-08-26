@@ -105,3 +105,28 @@ Initiate transactions with a vendor's unique ID and token amount, seamlessly tra
 ### Apply loans and manage microinsurance payments, maintaining a clear record of your financial transactions.
 ![Farmer Dashboard](/techbird/images/9th.png)
 ![Farmer Dashboard](/techbird/images/10th.png)
+
+
+
+# Tech Stack
+
+We've built our prototype using the following technologies:
+- Django Framework
+- SQLite Database
+
+
+
+# Step-by-Step Code Execution Instructions
+Follow these steps to clone and run the prototype for testing and analysis:
+
+- Git clone repo
+- go inside the directory
+- python manage.py migrate
+- python manage.py runserver
+- Access URL from http://127.0.0.1:8000/login
+
+
+# What I Learned
+
+While working on this prototype, the most important thing I learned was how valuable it is to write clean code. It's like keeping your room tidy – when your code is neat and organized, it's easier to understand and fix if something goes wrong. Following coding rules and keeping things well-arranged makes it easier for others to work with your code too. This lesson taught me that creating clean code is a smart way to make coding smoother and less confusing, and I plan to use this approach in my future projects too.
+
