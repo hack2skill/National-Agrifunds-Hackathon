@@ -102,3 +102,6 @@ Initiate transactions with a vendor's unique ID and token amount, seamlessly tra
 ![Farmer Dashboard](/techbird/images/8th.png)
 
 
+### Apply loans and manage microinsurance payments, maintaining a clear record of your financial transactions.
+![Farmer Dashboard](/techbird/images/9th.png)
+![Farmer Dashboard](/techbird/images/10th.png)
