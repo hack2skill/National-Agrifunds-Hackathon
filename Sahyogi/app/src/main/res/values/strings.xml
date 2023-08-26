@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sahyogi</string>
+    <string name="user_name">Test User</string>
+    <string name="user_upi">testuser@oksbi</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="gov_schemes">Government Schemes</string>
+    <string name="nfc_pay">Search for nearby NFC device</string>
+    <string name="req_money">Enter phone number or UPI ID to request money</string>
+    <string name="req_money_hint">UPI ID or Phone number</string>
+</resources>
