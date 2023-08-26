@@ -21,7 +21,7 @@ This project involves an offline, AI-powered chatbot application called **Cuty**
 - Natural Language Processing: User input processing and conversational output generation.
 - Mobile Application Development: The solution is packaged into a mobile application.
 
-![Technology Used](https://github.com/NandhaKishorM/National-Agrifunds-Hackathon/blob/main/convai%20innovations/screenshots/1.png)
+![Technology Used](https://github.com/NandhaKishorM/National-Agrifunds-Hackathon/blob/main/convai%20innovations/screenshots/technology.jpg)
 
 ## Installation
 
