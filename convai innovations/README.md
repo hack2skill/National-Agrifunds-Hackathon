@@ -1,7 +1,9 @@
 # NABARD Schemes Chatbot
 
 Team Name - Convai Innovations
+
 Problem Statement - Financial Inclusion in Remote Areas: Digital Financial Services for Unconnected Regions
+
 Team Leader Email - nandakishor@convaiinnovations.com
 
 This project involves an offline, AI-powered chatbot application called **Cuty** specifically designed for farmers. It provides information on NABARD schemes to farmers via an easy-to-use chat interface.
@@ -19,7 +21,7 @@ This project involves an offline, AI-powered chatbot application called **Cuty**
 
 - AI: Quantized transformer-based language model.
 - Natural Language Processing: User input processing and conversational output generation.
-- Mobile Application Development: The solution is packaged into a mobile application.
+- Mobile Application Development: The solution is packaged into a mobile application using Flutter
 
 ![Technology Used](https://github.com/NandhaKishorM/National-Agrifunds-Hackathon/blob/main/convai%20innovations/screenshots/technology.jpg)
 
