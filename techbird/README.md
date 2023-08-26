@@ -81,4 +81,15 @@ Stay informed with your Sales History. Our dashboard provides a clear overview o
 Explore the Inventory Management module to streamline your inventory-related tasks, ensuring smooth operations.
 
 
+### Vendor Dashboard
+### Create and manage your inventory effortlessly. Add products and view your inventory list seamlessly.
+![Farmer Dashboard](/techbird/images/4th.png)
+
+
+### Farmer Dashboard
+### Generate agritokens/ruraltokens with a value-based formula, boosting your token balance seamlessly.
+![Farmer Dashboard](/techbird/images/6th.png)
+
+### Redeem agritokens/ruraltokens for products, deducting your token balance instantly.
+![Farmer Dashboard](/techbird/images/7th.png)
 
