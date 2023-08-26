@@ -8,12 +8,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class RegisterActivity extends AppCompatActivity {
+public class GovtActivity extends AppCompatActivity {
     EditText name,accno,passwd,phno,mail;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register_layout);
+        setContentView(R.layout.government_layout);
 
         Button register= (Button) findViewById(R.id.signup);
         register.setOnClickListener(new View.OnClickListener() {

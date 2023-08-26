@@ -7,12 +7,12 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-public class LoginActivity extends AppCompatActivity {
+public class BankingActivity extends AppCompatActivity {
     EditText log_input,log_passwd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_activity);
+        setContentView(R.layout.banking_activity);
         Button log_btn=(Button) findViewById(R.id.login_login);
         log_btn.setOnClickListener(new View.OnClickListener() {
             @Override

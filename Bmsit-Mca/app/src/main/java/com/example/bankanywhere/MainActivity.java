@@ -10,35 +10,46 @@ import android.widget.TextView;
 import android.widget.*;
 
 public class MainActivity extends AppCompatActivity {
-    Button main_log,main_reg;
+    Button banking,pension,govt;
+    TextView legend;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        main_log=(Button) findViewById(R.id.login);
-        main_reg=(Button) findViewById(R.id.signup);
-
-        main_log.setOnClickListener(new View.OnClickListener() {
+        banking=(Button) findViewById(R.id.bankingButton);
+        govt=(Button) findViewById(R.id.governmentServicesButton);
+        pension=(Button) findViewById(R.id.pensionServicesButton);
+        banking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                doLogin();
+                doBanking();
+            }
+        });
+        govt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                doGovt();
+            }
+        });
+        pension.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                doPension();
             }
         });
 
-        main_reg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                doSignUp();
-            }
-        });
     }
-    public void doLogin(){
-        startActivity(new Intent(this,LoginActivity.class));
-        Toast.makeText(this, "Logging in", Toast.LENGTH_SHORT).show();
+    public void doBanking(){
+        startActivity(new Intent(this, BankingActivity.class));
+        Toast.makeText(this, "Banking", Toast.LENGTH_SHORT).show();
     }
 
-    public void doSignUp(){
-        Toast.makeText(this, "Signing Up", Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(this,RegisterActivity.class));
+    public void doGovt(){
+        Toast.makeText(this, "Govt", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this, GovtActivity.class));
+    }
+    public void doPension(){
+        Toast.makeText(this, "Govt", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this,PensionActivity.class));
     }
 }
