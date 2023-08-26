@@ -18,8 +18,7 @@ Our login process is unified for both farmers and vendors. You'll use the same l
 
 ## Farmer Dashboard
 
-Welcome to your personalized Farmer Dashboard! At our platform, we believe in empowering farmers with essential tools for success. Here's what you can expect:
-
+Welcome to your personalized Farmer Dashboard! 
 ![Farmer Dashboard](/techbird/images/2nd.png)
 
 ### Unique Farmer ID
@@ -51,4 +50,35 @@ Discover our Sustainable Farming module, designed to equip you with the knowledg
 ### Weather Data
 
 Displayed weather information tailored to your location, helping you make informed farming decisions.
+
+
+
+## Vendor Dashboard
+
+Welcome to your dedicated Vendor Dashboard! 
+![Farmer Dashboard](/techbird/images/3rd.png)
+
+### Unique Vendor ID
+
+Upon registration, a unique ID is assigned to you. This ID serves as your distinct identifier within our platform, ensuring seamless management of your account.
+
+### Token Balance
+
+Your dashboard prominently displays your token balance. Tokens play a pivotal role in accessing various platform features and conducting transactions.
+
+### Inventory Management
+
+Effortlessly manage your inventory using our intuitive Inventory Management module. Keep track of your products.
+
+### Sales History
+
+Stay informed with your Sales History. Our dashboard provides a clear overview of your past sales transactions, allowing you to analyze trends and make informed decisions.
+
+### Modules for Success
+
+### Inventory Management
+
+Explore the Inventory Management module to streamline your inventory-related tasks, ensuring smooth operations.
+
+
 
