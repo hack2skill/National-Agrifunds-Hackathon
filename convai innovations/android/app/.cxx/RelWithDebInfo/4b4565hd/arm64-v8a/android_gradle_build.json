@@ -1,0 +1,75 @@
+{
+  "buildFiles": [
+    "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\CMakeLists.txt",
+    "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\CMakeLists.txt",
+    "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\scripts\\build-info.cmake",
+    "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llamasherpa\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\android\\app\\.cxx\\RelWithDebInfo\\4b4565hd\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\android\\app\\.cxx\\RelWithDebInfo\\4b4565hd\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "BUILD_INFO::@295ad9d17b4cc55b0bd1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "BUILD_INFO"
+    },
+    "ggml::@295ad9d17b4cc55b0bd1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml"
+    },
+    "ggml_shared::@295ad9d17b4cc55b0bd1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml_shared",
+      "output": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\4b4565hd\\obj\\arm64-v8a\\libggml_shared.so",
+      "runtimeFiles": []
+    },
+    "ggml_static::@295ad9d17b4cc55b0bd1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml_static",
+      "output": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\android\\app\\.cxx\\RelWithDebInfo\\4b4565hd\\arm64-v8a\\llama.cpp\\libggml_static.a"
+    },
+    "llama::@295ad9d17b4cc55b0bd1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "llama",
+      "output": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\4b4565hd\\obj\\arm64-v8a\\libllama.so",
+      "runtimeFiles": []
+    },
+    "llamasherpa::@c6f68b38855565c6ba42": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "llamasherpa",
+      "output": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\4b4565hd\\obj\\arm64-v8a\\libllamasherpa.so",
+      "runtimeFiles": [
+        "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\4b4565hd\\obj\\arm64-v8a\\libllama.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

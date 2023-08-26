@@ -1,0 +1,5 @@
+# ninja log v5
+7	843	711323156	llama.cpp/CMakeFiles/ggml.dir/k_quants.c.o	c5c17345ac1dd90b
+1	1718	711323156	llama.cpp/CMakeFiles/ggml.dir/ggml.c.o	d114ac63ad782816
+32	1872	711323157	llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o	d3c0ca19bfdced3
+26	3684	711323158	llama.cpp/CMakeFiles/llama.dir/llama.cpp.o	e958dae0b003402a

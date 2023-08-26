@@ -1,0 +1,12 @@
+# ninja log v5
+1	1116	711321113	llama.cpp/CMakeFiles/ggml.dir/k_quants.c.o	71b385fc915debbb
+12	1555	711321114	llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o	69979e8eadd5bcb2
+4	1732	711321114	llama.cpp/CMakeFiles/ggml.dir/ggml.c.o	4f0d37c974936990
+1732	1832	711321114	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/x86_64/libggml_shared.so	ba08eee8dda6d8bd
+8	2991	711321115	llama.cpp/CMakeFiles/llama.dir/llama.cpp.o	27e1779b75a531dc
+2991	3119	711321115	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/x86_64/libllama.so	e97b8051f3bf8ab5
+3119	3291	711321115	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/x86_64/libllamasherpa.so	bff5d6dbbbbca7fd
+8	472	714771838	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/x86_64/libggml_shared.so	ba08eee8dda6d8bd
+52	564	714771838	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/x86_64/libllama.so	e97b8051f3bf8ab5
+118	1573	714771839	llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o	69979e8eadd5bcb2
+1573	1692	714771839	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/x86_64/libllamasherpa.so	bff5d6dbbbbca7fd

@@ -1,0 +1,55 @@
+ninja: Entering directory `C:\Users\user\Desktop\AI\sherpa\sherpa\android\app\.cxx\Debug\g4e1h3v4\x86'
+[1/7] Building C object llama.cpp/CMakeFiles/ggml.dir/k_quants.c.o
+[2/7] Building C object llama.cpp/CMakeFiles/ggml.dir/ggml.c.o
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:2318:5: warning: implicit conversion increases floating-point precision: 'float' to 'ggml_float' (aka 'double') [-Wdouble-promotion]
+    GGML_F16_VEC_REDUCE(sumf, sum);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:1950:37: note: expanded from macro 'GGML_F16_VEC_REDUCE'
+#define GGML_F16_VEC_REDUCE         GGML_F32Cx8_REDUCE
+                                    ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:1940:33: note: expanded from macro 'GGML_F32Cx8_REDUCE'
+#define GGML_F32Cx8_REDUCE      GGML_F32x8_REDUCE
+                                ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:1886:11: note: expanded from macro 'GGML_F32x8_REDUCE'
+    res = _mm_cvtss_f32(_mm_hadd_ps(t1, t1));                     \
+        ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:3360:9: warning: implicit conversion increases floating-point precision: 'float' to 'ggml_float' (aka 'double') [-Wdouble-promotion]
+        GGML_F16_VEC_REDUCE(sumf[k], sum[k]);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:1950:37: note: expanded from macro 'GGML_F16_VEC_REDUCE'
+#define GGML_F16_VEC_REDUCE         GGML_F32Cx8_REDUCE
+                                    ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:1940:33: note: expanded from macro 'GGML_F32Cx8_REDUCE'
+#define GGML_F32Cx8_REDUCE      GGML_F32x8_REDUCE
+                                ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:1886:11: note: expanded from macro 'GGML_F32x8_REDUCE'
+    res = _mm_cvtss_f32(_mm_hadd_ps(t1, t1));                     \
+        ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:578:23: warning: unused function 'mul_sum_i8_pairs' [-Wunused-function]
+static inline __m128i mul_sum_i8_pairs(const __m128i x, const __m128i y) {
+                      ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:609:19: warning: unused function 'hsum_i32_4' [-Wunused-function]
+static inline int hsum_i32_4(const __m128i a) {
+                  ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/ggml.c:674:23: warning: unused function 'packNibbles' [-Wunused-function]
+static inline __m128i packNibbles( __m256i bytes )
+                      ^
+5 warnings generated.
+[3/7] Linking C shared library C:\Users\user\Desktop\AI\sherpa\sherpa\build\app\intermediates\cxx\Debug\g4e1h3v4\obj\x86\libggml_shared.so
+FAILED: C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/x86/libggml_shared.so 
+cmd.exe /C "cd . && C:\Users\user\AppData\Local\Android\Sdk\ndk\23.1.7779620\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libggml_shared.so -o C:\Users\user\Desktop\AI\sherpa\sherpa\build\app\intermediates\cxx\Debug\g4e1h3v4\obj\x86\libggml_shared.so llama.cpp/CMakeFiles/ggml.dir/ggml.c.o llama.cpp/CMakeFiles/ggml.dir/k_quants.c.o  -pthread  -latomic -lm && cd ."
+ld: error: undefined symbol: posix_memalign
+>>> referenced by ggml.c:200 (C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp\ggml.c:200)
+>>>               llama.cpp/CMakeFiles/ggml.dir/ggml.c.o:(ggml_aligned_malloc)
+
+ld: error: undefined symbol: log2
+>>> referenced by ggml.c:12333 (C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp\ggml.c:12333)
+>>>               llama.cpp/CMakeFiles/ggml.dir/ggml.c.o:(ggml_compute_forward_alibi_f16)
+>>> referenced by ggml.c:12268 (C:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp\ggml.c:12268)
+>>>               llama.cpp/CMakeFiles/ggml.dir/ggml.c.o:(ggml_compute_forward_alibi_f32)
+>>> did you mean: logb
+>>> defined in: C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16\libm.so
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+[4/7] Building CXX object llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o
+[5/7] Building CXX object llama.cpp/CMakeFiles/llama.dir/llama.cpp.o
+ninja: build stopped: subcommand failed.

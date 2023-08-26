@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\user\Desktop\AI\sherpa\sherpa\android\app\.cxx\Debug\g4e1h3v4\x86_64'
+ninja: no work to do.

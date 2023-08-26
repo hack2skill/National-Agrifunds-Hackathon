@@ -1,0 +1,9 @@
+Executable : C:\Users\user\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\user\Desktop\AI\sherpa\sherpa\android\app\.cxx\Debug\g4e1h3v4\arm64-v8a
+ggml_shared
+llama
+llamasherpa
+jvmArgs : 
+

@@ -1,0 +1,47 @@
+ninja: Entering directory `C:\Users\user\Desktop\AI\sherpa\sherpa\android\app\.cxx\Debug\g4e1h3v4\arm64-v8a'
+[1/4] Linking C shared library C:\Users\user\Desktop\AI\sherpa\sherpa\build\app\intermediates\cxx\Debug\g4e1h3v4\obj\arm64-v8a\libggml_shared.so
+[2/4] Linking CXX shared library C:\Users\user\Desktop\AI\sherpa\sherpa\build\app\intermediates\cxx\Debug\g4e1h3v4\obj\arm64-v8a\libllama.so
+[3/4] Building CXX object llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o
+FAILED: llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o 
+C:\Users\user\AppData\Local\Android\Sdk\ndk\23.1.7779620\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dllamasherpa_EXPORTS -IC:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp -IC:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -MD -MT llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o -MF llamasherpa\CMakeFiles\llamasherpa.dir\llamasherpa.cpp.o.d -o llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o -c C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp:112:5: error: use of undeclared identifier 'llama_init_backend'
+    llama_init_backend(false);
+    ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp:184:48: error: no matching function for call to 'llama_token_bos'
+        const std::vector<llama_token> tmp = { llama_token_bos(), };
+                                               ^~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp\llama.h:350:27: note: candidate function not viable: requires single argument 'ctx', but no arguments were provided
+    LLAMA_API llama_token llama_token_bos(const struct llama_context * ctx);  // beginning-of-sentence
+                          ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp:287:41: error: no matching function for call to 'llama_token_nl'
+                float nl_logit = logits[llama_token_nl()];
+                                        ^~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp\llama.h:352:27: note: candidate function not viable: requires single argument 'ctx', but no arguments were provided
+    LLAMA_API llama_token llama_token_nl (const struct llama_context * ctx);  // next-line
+                          ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp:296:28: error: no matching function for call to 'llama_token_nl'
+                    logits[llama_token_nl()] = nl_logit;
+                           ^~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp\llama.h:352:27: note: candidate function not viable: requires single argument 'ctx', but no arguments were provided
+    LLAMA_API llama_token llama_token_nl (const struct llama_context * ctx);  // next-line
+                          ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp:329:23: error: no matching function for call to 'llama_token_eos'
+            if (id == llama_token_eos()) {
+                      ^~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp\llama.h:351:27: note: candidate function not viable: requires single argument 'ctx', but no arguments were provided
+    LLAMA_API llama_token llama_token_eos(const struct llama_context * ctx);  // end-of-sentence
+                          ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp:358:25: error: no matching function for call to 'llama_token_to_str'
+            show_output(llama_token_to_str(ctx, id));
+                        ^~~~~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp\llama.h:385:19: note: candidate function not viable: requires 4 arguments, but 2 were provided
+    LLAMA_API int llama_token_to_str(
+                  ^
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/llamasherpa.cpp:368:36: error: no matching function for call to 'llama_token_to_str'
+                    last_output += llama_token_to_str(ctx, id);
+                                   ^~~~~~~~~~~~~~~~~~
+C:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp\llama.h:385:19: note: candidate function not viable: requires 4 arguments, but 2 were provided
+    LLAMA_API int llama_token_to_str(
+                  ^
+7 errors generated.
+ninja: build stopped: subcommand failed.

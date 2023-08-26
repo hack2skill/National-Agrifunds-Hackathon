@@ -1,0 +1,185 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "llama.cpp",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "llama.cpp",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "llama.cpp/common",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "llama.cpp/common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "llamasherpa",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "llamasherpa",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "llama.cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "llamasherpa",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "BUILD_INFO::@295ad9d17b4cc55b0bd1",
+					"jsonFile" : "target-BUILD_INFO-Debug-a0bd7724d8ac39b678ab.json",
+					"name" : "BUILD_INFO",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "common::@2c2f5d13aecf752ca753",
+					"jsonFile" : "target-common-Debug-9049e84c9c0a864ba619.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ggml::@295ad9d17b4cc55b0bd1",
+					"jsonFile" : "target-ggml-Debug-9a706a13d965235d9615.json",
+					"name" : "ggml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ggml_shared::@295ad9d17b4cc55b0bd1",
+					"jsonFile" : "target-ggml_shared-Debug-99962a17e867c8f72763.json",
+					"name" : "ggml_shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ggml_static::@295ad9d17b4cc55b0bd1",
+					"jsonFile" : "target-ggml_static-Debug-0bf2652cf1f88d4ebd53.json",
+					"name" : "ggml_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "llama::@295ad9d17b4cc55b0bd1",
+					"jsonFile" : "target-llama-Debug-b4b6faf393d5c7957118.json",
+					"name" : "llama",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "llamasherpa::@c6f68b38855565c6ba42",
+					"jsonFile" : "target-llamasherpa-Debug-cb8851954a8564aee7e3.json",
+					"name" : "llamasherpa",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/arm64-v8a",
+		"source" : "C:/Users/user/Desktop/AI/sherpa/sherpa/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
