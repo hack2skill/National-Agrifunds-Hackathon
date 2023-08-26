@@ -7,12 +7,48 @@ Welcome to our platform designed for farmers and vendors! Our user authenticatio
 
 ![User Authentication Module for different roles](/techbird/images/1st.png)
 
-## Registration
+### Registration
 
 - Farmers can easily register by clicking the "Register as Farmer" button.
 - Vendors can join us by selecting the "Register as Vendor" button.
 
-## Login
+### Login
 
 Our login process is unified for both farmers and vendors. You'll use the same login page to access your account. After successful authentication, our platform will intelligently redirect you to the appropriate dashboard based on your role.
+
+## Farmer Dashboard
+
+Welcome to your personalized Farmer Dashboard! At our platform, we believe in empowering farmers with essential tools for success. Here's what you can expect:
+
+![Farmer Dashboard](/techbird/images/2nd.png)
+
+### Unique Farmer ID
+
+Upon registration, each farmer is assigned a unique ID. This ID serves as your identifier across the platform, helping you manage your account efficiently.
+
+## Token Balance
+
+Your dashboard prominently displays your token balance. Tokens are an integral part of our platform, allowing you to access various features and transactions.
+
+## Recent Transactions
+
+Our user-friendly interface provides a clear overview of your latest activities and interactions.
+
+## Modules for Success
+
+### Token Management
+
+Effortlessly manage your tokens with Token Management module. Create your token, Redeem your token.
+
+### Financial Transaction
+
+Our Financial Transaction module enables you to conduct secure and transparent financial operations. Seamlessly send and receive payments in tokens, ensuring a smooth exchange of resources.
+
+### Sustainable Farming
+
+Discover our Sustainable Farming module, designed to equip you with the knowledge and tools for environmentally friendly and efficient farming practices.
+
+### Weather Data
+
+Displayed weather information tailored to your location, helping you make informed farming decisions.
 
