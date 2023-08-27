@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+body {
+  margin: 0;
+  background: #ecf0f1;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 100%;
+  width: 18vw;
+  font-family: raleway;
+  background: white;
+  overflow-y: hidden;
+  position: fixed;
+}
+
+.dash-item {
+  color: black;
+  font-size: 20px;
+  margin: 20px 0px;
+  width: 90%;
+  padding: 5px 0;
+  transition: background-color 0.5s;
+  
+  border-radius: 30px;
+}
+
+.dash-items {
+  border: 2px solid #9dc08b;
+  border-radius: 50%;
+  width: 80%;
+  margin: 50px 0px 8px 0px;
+}
+
+.floral{
+  width: 80%;
+}
+
+.dash-item:hover{
+  background-color: #9dc08b !important;
+  background: none;
+}
+
+.dash-item:hover a{
+  color: white;
+}
+
+.dash-item a {
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+}

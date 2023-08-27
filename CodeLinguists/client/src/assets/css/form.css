@@ -1,0 +1,43 @@
+form{
+  display: block;
+}
+
+.modal-window input, .modal-window2 input{
+  border-radius: 15px;
+}
+
+.modal-window2 label{
+  position: relative;
+  left: 10px;
+}
+.modal-window label{
+  position: relative;
+  left: 10px;
+}
+
+.modal-window .btn-sbmt, .modal-window2 .btn-sbmt{
+  border: 1px solid black;
+  position: relative;
+  border-radius: 30px;
+}
+
+.modal-window .btn-sbmt{
+  margin-top: 40px;
+}
+
+.modal-window2 .btn-sbmt{
+  margin-top: 20px;
+}
+
+.loginbtn-loader{
+  display: none;
+  width: 100px;
+  position: absolute;
+  top: 52%;
+  left: 88%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-sbmt:focus .loginbtn-loader{
+  display: block;
+}

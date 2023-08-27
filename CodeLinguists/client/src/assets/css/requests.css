@@ -1,0 +1,30 @@
+.btn-sbmt-11, .btn-sbmt-12{
+    border-radius: 20px;
+    padding: 3px 15px;
+    margin: 0 10px;
+    background-color: #fc2956;
+    border: none;
+    color: white;
+}
+
+.requests-1{
+    border: 2px solid #fc2956;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 5px 10px;
+}
+
+.mid-req, .last-req{
+    position: relative;
+    top: 25px;
+}
+
+.mid-req{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.img-cross{
+    z-index: 99999;
+}
+
