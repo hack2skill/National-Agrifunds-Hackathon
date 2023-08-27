@@ -35,7 +35,7 @@ Download the AI model file from
 
 [Download AI Model](https://github.com/NandhaKishorM/National-Agrifunds-Hackathon/releases/download/debug/ggml-model.bin)
 
-after downloading the model copy the AI model file to phones files
+after downloading the model copy the AI model file to your smart phones files
 
 2. Run the app and choose the AI model.
 
