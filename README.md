@@ -29,6 +29,13 @@
 
   3. Use case
   ![Use case](images/use_case.jpg)
+
+  4. Screenshots
+  ![Main Page](images/1.jpeg)
+  ![Banking Page](images/2.jpeg)
+  ![Government Schemes Page](images/3.jpeg)
+  ![Pension Page](images/4.jpeg)
+
   
 ## Tech Stack:
   The protoype is built using the following tech stack:
