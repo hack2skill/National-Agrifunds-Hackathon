@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86",
+  "command": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DGGML_USE_K_QUANTS -IC:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx -mavx2 -pthread -std=gnu11 -o llama.cpp\\CMakeFiles\\ggml.dir\\ggml.c.o -c C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\ggml.c",
+  "file": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\ggml.c"
+},
+{
+  "directory": "C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86",
+  "command": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DGGML_USE_K_QUANTS -IC:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wdouble-promotion -Wshadow -Wstrict-prototypes -Wpointer-arith -mf16c -mfma -mavx -mavx2 -pthread -std=gnu11 -o llama.cpp\\CMakeFiles\\ggml.dir\\k_quants.c.o -c C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\k_quants.c",
+  "file": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\k_quants.c"
+},
+{
+  "directory": "C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86",
+  "command": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DGGML_USE_K_QUANTS -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -IC:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-multichar -mf16c -mfma -mavx -mavx2 -pthread -std=gnu++11 -o llama.cpp\\CMakeFiles\\llama.dir\\llama.cpp.o -c C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\llama.cpp",
+  "file": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llama.cpp\\llama.cpp"
+},
+{
+  "directory": "C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86",
+  "command": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android16 --gcc-toolchain=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/user/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dllamasherpa_EXPORTS -IC:/Users/user/Desktop/AI/sherpa/sherpa/src/llamasherpa/../llama.cpp -IC:/Users/user/Desktop/AI/sherpa/sherpa/src/llama.cpp/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o llamasherpa\\CMakeFiles\\llamasherpa.dir\\llamasherpa.cpp.o -c C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llamasherpa\\llamasherpa.cpp",
+  "file": "C:\\Users\\user\\Desktop\\AI\\sherpa\\sherpa\\src\\llamasherpa\\llamasherpa.cpp"
+}
+]

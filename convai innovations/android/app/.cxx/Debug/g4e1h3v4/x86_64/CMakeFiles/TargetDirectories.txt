@@ -1,0 +1,12 @@
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/CMakeFiles/rebuild_cache.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llama.cpp/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llama.cpp/CMakeFiles/BUILD_INFO.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llama.cpp/CMakeFiles/ggml.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llama.cpp/CMakeFiles/rebuild_cache.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llama.cpp/CMakeFiles/ggml_static.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llama.cpp/CMakeFiles/llama.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llama.cpp/CMakeFiles/ggml_shared.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llamasherpa/CMakeFiles/llamasherpa.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llamasherpa/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/AI/sherpa/sherpa/android/app/.cxx/Debug/g4e1h3v4/x86_64/llamasherpa/CMakeFiles/rebuild_cache.dir

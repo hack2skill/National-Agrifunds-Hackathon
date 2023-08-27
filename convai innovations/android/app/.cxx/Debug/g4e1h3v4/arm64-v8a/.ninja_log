@@ -1,0 +1,21 @@
+# ninja log v5
+41	1207	711321105	llama.cpp/CMakeFiles/ggml.dir/k_quants.c.o	a9178c78b805dd7f
+14	2169	711321106	llama.cpp/CMakeFiles/ggml.dir/ggml.c.o	e111ed0e97bc56a7
+2170	2343	711321106	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libggml_shared.so	36b25d4fe465d2
+71	2598	711321106	llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o	1b6ebd0add6efe79
+51	4078	711321108	llama.cpp/CMakeFiles/llama.dir/llama.cpp.o	d4f70f5f5a8436d
+4078	4239	711321108	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libllama.so	ab97cd409af1a92d
+4239	4385	711321108	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libllamasherpa.so	59359a10fa454c53
+30	831	714771834	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libggml_shared.so	36b25d4fe465d2
+22	918	714771834	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libllama.so	ab97cd409af1a92d
+38	3553	714771836	llamasherpa/CMakeFiles/llamasherpa.dir/llamasherpa.cpp.o	1b6ebd0add6efe79
+3553	3692	714771837	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libllamasherpa.so	59359a10fa454c53
+27	1088	714775900	llama.cpp/CMakeFiles/ggml.dir/k_quants.c.o	a9178c78b805dd7f
+16	2354	714775902	llama.cpp/CMakeFiles/ggml.dir/ggml.c.o	e111ed0e97bc56a7
+32	4694	714775904	llama.cpp/CMakeFiles/llama.dir/llama.cpp.o	d4f70f5f5a8436d
+7	488	714776655	llama.cpp/CMakeFiles/ggml.dir/ggml-alloc.c.o	44d8572119bd4511
+23	813	714776655	llama.cpp/CMakeFiles/ggml.dir/k_quants.c.o	7754cf9883405af4
+16	2448	714776657	llama.cpp/CMakeFiles/ggml.dir/ggml.c.o	18a5e0e3113f09ce
+28	4884	714776659	llama.cpp/CMakeFiles/llama.dir/llama.cpp.o	d4f70f5f5a8436d
+29	591	714776784	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libggml_shared.so	c90abbbf90b4abd2
+19	760	714776784	C:/Users/user/Desktop/AI/sherpa/sherpa/build/app/intermediates/cxx/Debug/g4e1h3v4/obj/arm64-v8a/libllama.so	8fc134e24a4c2b33
