@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/hh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="FinServ"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp">
+
+        <Button
+            android:id="@+id/bankingButton"
+            android:layout_width="10dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="🏧"
+            android:textSize="25sp"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/governmentServicesButton"
+            android:layout_width="10dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="🏢"
+            android:textSize="25sp"
+            android:textColor="#8BC34A"
+            />
+
+        <Button
+            android:id="@+id/pensionServicesButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="🗓"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Legends"
+        android:textColor="#673AB7"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/legend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏧:Banking\n🏢:Government Services\n🗓:Pension Services"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
