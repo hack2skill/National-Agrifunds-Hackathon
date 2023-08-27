@@ -7,17 +7,17 @@
 
 ## A Brief of the Prototype:
 
-  Our prototype is an Android app designed to provide seamless financial services to individuals in areas with limited internet connectivity. By combining user-friendly design with robust technology, our app ensures easy access to banking services, even for those with minimal digital literacy. Here's a brief overview of the prototype's key features:
+  Our prototype is an Android app which would be deployed on kiosk designed to provide seamless financial services to individuals in areas with limited internet connectivity. By combining user-friendly design with robust technology, our app ensures easy access to banking services,govt services,pension services for aged individuals even for those with minimal digital literacy. Here's a brief overview of the prototype's key features:
 
-  1. User-Friendly Interface:Our app boasts a simple and intuitive user interface, carefully designed to cater to users of all technological backgrounds.
+  1. User-Friendly Interface:Our app boasts a simple and intuitive user interface, carefully designed to cater to users with minimal learning curve and almost no technical knowledge.
 
   2. Connectivity Adaptibility: One of the standout features of our prototype is its adaptability to different connectivity scenarios.
 
-  3. Internet Connectivity: In the presence of an internet connection, our app establishes a connection with the bank servers and facilitates seamless transactions.
+  3. Internet Connectivity: In the presence of an internet connection, our app establishes a connection with the bank or any other servers and facilitates seamless transactions.
 
-  4. SMS Connectivity: In the absence of an internet connection, our app automatically switches to SMS mode, allowing users to perform transactions through SMS.
+  4. SMS Connectivity: In the absence of an internet connection, our app automatically switches to SMS mode, allowing users to perform transactions through SMS. Any transaction done through interface of the kisok will be converted to SMS and sent to the server where the transaction will be processed and the response will be sent back to the kiosk through SMS.
 
-  5. Regular Backups: Our app regularly backs up all transactions to ensure that users can recover their data in case of any errors.
+  5. Regular Backups: Our app regularly backs up all transactions to ensure that data can be recovered in case of any errors or system failures with minimal Recovery Point Objective(RPO) & Recovery Time Objective(RTO), That ensures minimal data loss and quick recovery of the functionality, respectively.
 
   Uml class diagram, Flowcharts, Screenshots, etc. can be used to explain the prototype. 
 
@@ -68,6 +68,7 @@
   Participating in a hackathon as a team of four, we embarked on a journey to design and implement an Android app that would revolutionize financial services for individuals with limited internet connectivity. Our solution aimed to provide seamless access to bank services, ensuring that even those with limited digital literacy could navigate the app effortlessly.
   Our app was designed to establish a connection with bank servers through the internet, with a seamless fallback to SMS services in the absence of an internet connection. Additionally, we incorporated regular backups to safeguard transactions and facilitate recovery in case of any errors. Through this experience, we not only developed technical skills but also gained insights into teamwork, empathy-driven design, and the importance of innovation in addressing real-world challenges.
 
+
 ## Skills Acquired:
   1. Android Development
   2. Java
@@ -76,3 +77,9 @@
   5. Android Studio
   6. Git and Github
   7. Teamwork
+
+## Team Members:
+  1. [Anirudh Parvatikar](https://github.com/anirudhp06)
+  2. [Varshini J M](https://github.com/varu2001)
+  3. [Abdul Mukeeth](https://github.com/abdulmukeeth)
+  4. [Rakshit M](https://github.com/rakshithm63)
