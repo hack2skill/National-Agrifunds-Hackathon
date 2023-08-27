@@ -48,6 +48,7 @@ This project involves an offline, AI-powered chatbot application called **Cuty**
 
 [Download AI Model](https://github.com/NandhaKishorM/National-Agrifunds-Hackathon/releases/download/debug/ggml-model.bin)
 
+
 after downloading the model copy the AI model file to your smart phones files
 
 3. Run the app and choose the AI model.
@@ -71,6 +72,8 @@ This project has been a significant learning experience for me, and I've gained 
 5. **Collaborative Work**: Working on this project also taught me the importance of collaboration and effective communication within a team, especially when dealing with complex tasks and tight deadlines.
 
 6. **Project Management**: Managing different aspects of the project, such as planning, organizing, and executing tasks within a set timeline, was a valuable learning experience.
+
+**NOTE:** It is important to note that the AI model may become inaccurate when asked by certain prompts. 
 
 ## License
 
