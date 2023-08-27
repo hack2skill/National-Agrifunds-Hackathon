@@ -22,15 +22,20 @@
   Uml class diagram, Flowcharts, Screenshots, etc. can be used to explain the prototype. 
 
   1. Class Diagram
+
   ![Class Diagram](images/class_diagram.jpg)
 
   2. Flowchart
+
   ![Flowchart](images/flowchart_readme.jpg)
 
   3. Use case
+
+
   ![Use case](images/use_case.jpg)
 
   4. Screenshots
+
   ![Main Page](images/1.jpeg)
   ![Banking Page](images/2.jpeg)
   ![Government Schemes Page](images/3.jpeg)
@@ -47,9 +52,15 @@
    
 ## Step-by-Step Code Execution Instructions:
   1. Clone the repository
-  > ```git clone https://github.com/anirudhp06/National-Agrifunds-Hackathon.git```
+  
+   ```git clone https://github.com/anirudhp06/National-Agrifunds-Hackathon.git```
+
+   
   2. Make sure you are on the `mobile` branch
-  > ```git checkout mobile```
+ 
+  ```git checkout mobile```
+
+  
   3. Open the project in Android Studio
   4. Run the project on an emulator or a physical device
   
