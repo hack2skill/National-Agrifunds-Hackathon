@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/homeicon"
+        android:title="Home"/>
+    <item
+        android:id="@+id/navigation_offers"
+        android:icon="@drawable/discount"
+        android:title="Discounts and Offers"/>
+    <item
+        android:id="@+id/navigation_bank"
+        android:icon="@drawable/bank"
+        android:title="Bank"/>
+    <item
+        android:id="@+id/navigation_transaction"
+        android:icon="@drawable/transaction"
+        android:title="Transactions"/>
+    <item
+        android:id="@+id/navigation_payment"
+        android:icon="@drawable/scan_pay"
+        android:title="Scan and Pay"/>
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/account"
+        android:title="My Account"/>
+
+</menu>
