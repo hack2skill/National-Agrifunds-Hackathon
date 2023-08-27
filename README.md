@@ -9,18 +9,25 @@
 
 ## README.md must consist of the following information:
 
-#### Team Name -
-#### Problem Statement - 
-#### Team Leader Email -
+#### Team Name - AgriSafe
+#### Problem Statement - Financial Inclusion in Remote Areas: Digital Financial Services for Unconnected Regions
+#### Team Leader Email - hindeshnit19@gmail.com
 
 ## A Brief of the Prototype:
   This section must include UML Diagrams and prototype description
+  ![use_case](use_case_nb.png)
   
 ## Tech Stack: 
-   List Down all technologies used to Build the prototype
+   Streamlit: Web-development\
+  Google Sheets: Backend database\
+  Python libraries: Scikit-learn, pandas, numpy
+
    
 ## Step-by-Step Code Execution Instructions:
-  This Section must contain a set of instructions required to clone and run the prototype so that it can be tested and deeply analyzed
+      ```
+      1. Clone the repository
+      2. streamlit run main.py
+      ```
   
 ## What I Learned:
-   Write about the biggest learning you had while developing the prototype
+   From this project I learned that providing the payment solution is important but securing that solution and creating alerts is very important for a payment solution
