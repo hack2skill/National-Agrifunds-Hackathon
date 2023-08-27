@@ -1,0 +1,197 @@
+input[type="checkbox"] {
+	display:none;
+}
+input[type="checkbox"]:checked ~ .modal,
+input[type="checkbox"]:checked ~ .modal-background {
+	display: block;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;	
+    width: 80%;
+    height: 400px;
+    background-color: #fff;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+.modal > p {
+	padding: 15px;
+    margin: 0;
+}
+.modal-header {
+	background-color: #f9f9f9;
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
+    height: 50px;
+}
+.modal-header h3 {
+	margin: 0;
+    box-sizing: border-box;
+    padding-left: 15px;
+    line-height: 50px;
+    color: #4d4d4d;
+    font-size: 16px;
+    display: inline-block;
+}
+.modal-header label {
+	box-sizing: border-box;
+    border-left: 1px solid #dddddd;
+    float: right;
+    line-height: 50px;
+    padding: 0 15px 0 15px;
+    cursor: pointer;
+}
+.modal-header label:hover img {
+	opacity: 0.6;
+}
+
+.modal-window {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  .modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal-window > div {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: whitesmoke;
+    border-radius: 30px;
+  }
+  .modal-window header {
+    font-weight: bold;
+  }
+  .modal-window h1 {
+    font-size: 150%;
+    margin-bottom: 30px;
+  }
+  
+  .modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .modal-close:hover {
+    color: black;
+  }
+  
+  a {
+    color: inherit;
+  }
+
+  
+  .loginbtn {
+    text-decoration: none;
+  }
+  .loginbtn i {
+    padding-right: 0.3em;
+  }
+
+
+  .modal-window2 {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  .modal-window2:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal-window2 > div {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: whitesmoke;
+    border-radius: 30px;
+  }
+  .modal-window2 header {
+    font-weight: bold;
+  }
+  .modal-window2 h1 {
+    font-size: 150%;
+    margin-bottom: 30px;
+  }
+  
+  .signbtn {
+    text-decoration: none;
+  }
+  .signbtn i {
+    padding-right: 0.3em;
+  }
+
+
+  .modal-windowss {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  .modal-windowss:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal-windowss > div {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: whitesmoke;
+    border-radius: 30px;
+  }
+  .modal-windowss header {
+    font-weight: bold;
+  }
+  .modal-windowss h1 {
+    font-size: 150%;
+    margin-bottom: 30px;
+  }

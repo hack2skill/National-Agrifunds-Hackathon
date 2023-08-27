@@ -1,0 +1,46 @@
+{
+  "name": "hackathon-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js --ignore client",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@iconify/icons-mdi": "^1.2.8",
+    "@iconify/react": "^3.2.1",
+    "@mui/icons-material": "^5.14.6",
+    "@mui/material": "^5.14.6",
+    "@mui/styled-engine-sc": "^5.14.6",
+    "@mui/x-data-grid": "^6.12.0",
+    "@mui/x-date-pickers": "^6.12.0",
+    "aos": "^2.3.4",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "dayjs": "^1.11.9",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "iconify": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.0.8",
+    "react-datetime-picker": "^5.5.1",
+    "styled-components": "^6.0.7",
+    "tawkto-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "nodemon": "^2.0.13"
+  }
+}

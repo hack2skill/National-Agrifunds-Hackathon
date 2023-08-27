@@ -1,0 +1,438 @@
+@font-face {
+    font-family: allura;
+    src: url("../fonts/allura.ttf");
+} 
+  
+@font-face {
+  font-family: ananda;
+  src: url("../fonts/ananda.ttf");
+  } 
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Yellowtail&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+  
+
+  html body {
+    margin: 0px;
+    font-family: "segoe ui";
+    overflow-x: hidden;
+  }
+  
+  .nav {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 999;
+    transition: 0.5s all;
+    transition-delay: 0.2s;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  .nav-title-inner{
+    font-family: ananda !important;
+    color: #242333;
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    left: -15px;
+  }
+
+  .nav-title-inner img{
+    height: 10vh;
+    width: 4vw;
+    border-radius: 50px;
+    margin-bottom: 5px;
+  }
+
+
+  .nav > .nav-header > .nav-title {
+    font-size: 22px;
+    color: #fff;
+    float: left;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links > a {
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #9dc08b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin: 20px 5px;
+    transition: background-color 0.3s;
+  }
+  .nav > .nav-links > a:hover {
+    color: white;
+    background-color: #9dc08b;
+  }
+  
+  .banner-main{
+      height: 100vh;
+      background: linear-gradient(160deg, #FFFFFF 50%, #9dc08b 90%);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .banner-main-inner{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .banner-left{
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+  }
+  .banner-right{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(25%, -50%);
+    text-align: center;
+  }
+
+  .main-heading{
+    font-family: 'Outfit', sans-serif;
+    font-size: 3rem;
+    width: 70%;
+    line-height: 70px;
+  }
+  .sub-heading{
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    width: 70%;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .button-banner{
+    background-color: #9dc08b;
+    color: white;
+    border: 2px solid #9dc08b;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin: 20px 10px 20px 0px;
+
+  }
+
+  .banner-photo{
+      width: 70%;
+  }
+
+  .signupbtn, .loginbtn {
+    background-color: #9dc08b;
+    color: white !important;
+  }
+
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  .brand-name-logo {
+    width: 120px;
+    height: 60px;
+    z-index: 99999;
+    position: relative;
+    left: -60px;
+  }
+
+    .nav-inside{
+      background-color: #9dc08b;
+      border-radius: 0 0 25% 25%;
+      padding: 10px !important;
+      padding-top: 15px !important;
+    }
+
+    .nav-inside > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      top: 30%;
+      left: 95%;
+      transform: translate(-50%, -50%);
+    }
+
+    .nav-inside > .nav-btn-22 {
+      display: inline-block;
+      position: absolute;
+      top: 42%;
+      left: 5%;
+      transform: translate(-50%, -50%);
+    }
+
+    .nav-inside > .nav-btn-11 {
+      display: inline-block;
+      position: absolute;
+      top: 44%;
+      left: 93%;
+      transform: translate(-50%, -50%);
+    }
+
+    .navbar-inside-logo{
+      width: 80px;
+      margin-right: 200px;
+      border-radius: 100px;
+      border: 2px solid white;
+      padding: 2px;
+      margin-left: 0;
+    }
+
+    .navbar-back-arrow i{
+      color: white;
+    }
+
+    .nav-title {
+      position: relative;
+      left: 100px;
+      line-height: 1.2;
+    }
+
+    .nav-inside .nav-title span{
+      letter-spacing: 1px;
+    }
+
+    .nav-inside .nav-title p{
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 2em;
+      font-family: 'Dela Gothic One', cursive;
+    }
+  
+    .nav-inside > .nav-links > a {
+      border-radius: 0px;
+    }
+  
+    .nav-inside > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      position: relative;
+      top: 14px;
+      right: 10px;
+    }
+    .nav-inside > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: white;
+      border: 2px solid white;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+    .nav-inside-inside > .nav-btn > label > span{
+      background-color: white;
+      border: 2px solid white;
+    }
+    .nav-inside > .nav-links {
+      position: absolute;
+      display: block;
+      width: 105%;
+      background: white;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow: hidden;
+      top: 106px;
+      left: -10px;
+      background-color: #9dc08b;
+    }
+  
+    .nav-inside > .nav-links > a {
+      display: block;
+      width: 100%;
+      font-size: 15px;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 400;
+      text-align: center;
+      width: 20% !important;
+      border-radius: 30px !important;
+      margin-left: 39% !important;
+    }
+
+    .nav-inside > .nav-links > a:hover {
+    background-color: white;
+    color: #9dc08b;
+    }
+
+    .nav-inside > .nav-links > a:focus{
+      color: white !important;
+    }
+
+    .nav-inside .signupbtn, .nav-inside .loginbtn{
+        background-color: white;
+        width: 30% !important;
+        color: #9dc08b !important;
+        border-radius: 30px !important;
+        margin-left: 35.5% !important;
+    }
+
+    .nav-inside .signupbtn:hover, .nav-inside .loginbtn:hover{
+      background-color: white !important;
+      color: #9dc08b !important;
+    }
+  
+    .nav-inside > #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+    .nav-inside > #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  
+  @media (min-width: 840px) {
+    .nav > .nav-links {
+      font-size: 18px;
+      margin: auto 50px;
+      margin-left: auto;
+    }
+  }
+
+  @media (max-width: 840px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 2%;
+      top: 7%;
+    }
+  
+    .brand-name-logo {
+      position: relative;
+      left: 10px;
+      top: 5px;
+    }
+
+    .nav-title {
+      position: relative;
+      top: -3px;
+    }
+  
+    .nav > .nav-links > a {
+      border-radius: 0px;
+    }
+  
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+      position: relative;
+      top: 14px;
+      right: 10px;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: #9dc08b;
+      border: 2px solid #9dc08b;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+    .nav-inside > .nav-btn > label > span{
+      background-color: white;
+      border: 2px solid white;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 105%;
+      background: white;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow: hidden;
+      top: 80px;
+      left: -10px;
+    }
+  
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+      font-size: 15px;
+      color: #9dc08b;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .nav > .nav-links > a:focus{
+      color: white !important;
+    }
+
+    .signupbtn, .loginbtn{
+        background-color: #9dc08b;
+        width: 30% !important;
+        border-radius: 30px !important;
+        margin-left: 35.5% !important;
+    }
+  
+    .nav > #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+  @media (max-width: 1025px){
+
+    .banner-left{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-80%, -50%);
+    }
+    
+    .banner-photo{
+        width: 180%;
+    }
+
+    .banner-right{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+    .main-heading{
+        letter-spacing: 1px;
+        font-size: 12rem;
+      }
+      .sub-heading{
+        font-family: 'Poppins', sans-serif !important;
+        letter-spacing: 1px;
+        font-size: 1.4rem;
+        margin: 0px 0px 20px 0px;
+      }
+  }
+
+  .hellospanner{
+    color:#9dc08b;
+  }
+  
+
+
+ 

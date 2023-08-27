@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://dbUser:dbUser@cluster0.ssqzn.mongodb.net/Adya?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}

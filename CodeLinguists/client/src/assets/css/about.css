@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.about-inner{
+    background: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-headings{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+
+.about-img{
+    width: 50px;
+    background-color: white;
+    border-radius: 20%;
+    padding: 5px;
+    border: 1px solid black;
+    position: relative;
+    top: 15px;
+}
+
+.hello-about{
+    position: relative;
+    top: -90px;
+}
+
+.about-spanner{
+    position: relative;
+    margin-left: 13px;
+}
+.about-spanner2{
+    position: relative;
+    margin-left: 70px;
+}
+
+.about-text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    background:linear-gradient(90deg, #609966 10%, #9dc08b 90%);
+    color: white;
+    border-radius: 20px 20px 5px 5px;
+    padding: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.about-text{
+    margin: 4% 15% 0% 15%;
+}
+
+.about-text p{
+    text-align: justify;
+    padding: 30px 10px 20px 10px;
+    border-left: 2px solid #609966;
+    border-right: 2px solid #609966;
+    border-bottom: 2px solid #609966;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    font-size: 0.9em;
+    top: -13px;
+}
+.about-text .p1{
+    font-size: 0.89em;
+}
