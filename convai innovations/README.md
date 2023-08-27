@@ -27,6 +27,20 @@ This project involves an offline, AI-powered chatbot application called **Cuty**
 
 ## Installation
 
+1. Install the apk file from
+
+[![Download APK](https://img.shields.io/badge/download-APK-blue.svg)](https://github.com/NandhaKishorM/National-Agrifunds-Hackathon/releases/download/debug/app-release.apk)
+
+Download the AI model file from
+
+[Download AI Model](https://github.com/NandhaKishorM/National-Agrifunds-Hackathon/releases/download/debug/ggml-model.bin)
+
+after downloading the model copy the AI model file to phones files
+
+2. Run the app and choose the AI model.
+
+
+
 Clone the repository and use android studio to build and install apk.
 
 ## What I Learned
