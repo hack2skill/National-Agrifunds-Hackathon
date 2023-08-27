@@ -7,6 +7,7 @@
 #### Team Leader Email - ashurajherode3028@gmail.com
 
 ## A Brief of the Prototype:
+![Diagram](https://github.com/vibodhbhosure/National-Agrifunds-Hackathon/assets/52785828/40a8a621-57c6-473e-b4d3-ca71bbd35700)
 
     Step 1: Registration
         1. Begin by opening the Ease Pay app on your mobile device.
