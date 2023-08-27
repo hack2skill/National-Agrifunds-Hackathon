@@ -1,0 +1,10 @@
+{
+    "loginScreen": {
+      "welcome": "Welcome to Ease-Pay App",
+      "usernamePlaceholder": "Username",
+      "passwordPlaceholder": "Password",
+      "loginButton": "Login",
+      "registerLink": "Don't have an account? Register here."
+    }
+  }
+  

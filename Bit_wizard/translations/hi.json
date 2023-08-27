@@ -1,0 +1,10 @@
+{
+    "loginScreen": {
+      "welcome": "ईज-पे ऐप में आपका स्वागत है",
+      "usernamePlaceholder": "उपयोगकर्ता नाम",
+      "passwordPlaceholder": "पासवर्ड",
+      "loginButton": "लॉगिन करें",
+      "registerLink": "खाता नहीं है? यहाँ पर रजिस्टर करें."
+    }
+  }
+  
