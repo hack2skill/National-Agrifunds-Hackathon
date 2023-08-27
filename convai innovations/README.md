@@ -19,7 +19,20 @@ This project involves an offline, AI-powered chatbot application called **Cuty**
 
 ## Technology Used
 
-- AI: Quantized transformer-based language model.
+- AI: Quantized transformer-based language model. Fine-tuned OpenLLaMA 3B parameter model on curated dataset and converted to GGML 4 bit quantization format
+- GGML AI models - ggml is a tensor library for machine learning to enable large models and high performance on commodity hardware. It is used by llama.cpp and whisper.cpp
+
+1. Written in C
+2. 16-bit float support
+3. Integer quantization support (e.g. 4-bit, 5-bit, 8-bit)
+4. Automatic differentiation
+5. Built-in optimization algorithms (e.g. ADAM, L-BFGS)
+6. Optimized for Apple Silicon
+7. On x86 architectures utilizes AVX / AVX2 intrinsics
+8. Web support via WebAssembly and WASM SIMD
+9. No third-party dependencies
+10. Zero memory allocations during runtime
+11. Guided language output support
 - Natural Language Processing: User input processing and conversational output generation.
 - Mobile Application Development: The solution is packaged into a mobile application using Flutter
 
