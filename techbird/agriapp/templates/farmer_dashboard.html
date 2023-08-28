@@ -1,0 +1,166 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="dashboard-container">
+  <h2>Farmer Dashboard</h2><br/>
+    <p>Your Unique User ID: {{ user_unique_id }}</p>
+  <br/>
+  <div class="dashboard-summary">
+    <div class="summary-item">
+      <h3>AgriToken Balance</h3><br/>
+      <p>{{ agri_token_balance }}</p>
+    </div>
+    <div class="summary-item">
+      <h3>Recent Transactions</h3><br/>
+      <ul>
+        {% for transaction in recent_transactions %}
+          <li>{{ transaction }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
+  <div class="dashboard-actions">
+    <div class="action-section">
+      <h3>Financial Transactions</h3>
+      <br/>
+      <a class="dashboard-button" href="{% url 'initiate_transaction' %}">Initiate Transaction</a>
+      <a class="dashboard-button" href="{% url 'apply_for_loan' %}">Apply for Loan</a>
+      <a class="dashboard-button" href="{% url 'make_microinsurance_payment' %}">Make Microinsurance Payment</a>
+    </div>
+    <div class="action-section">
+      <h3>AgriToken Management</h3>
+      <br/>
+      <a class="dashboard-button" href="{% url 'create_agritoken' %}">Create New AgriTokens</a>
+      <a class="dashboard-button" href="{% url 'redeem_agritoken' %}">Redeem AgriTokens</a>
+    </div>
+    <div class="action-section">
+      <h3>Sustainable Farming</h3>
+      <br/>
+      <a class="dashboard-button" href="{% url 'practice_sustainable_farming' %}">Practice Sustainable Farming</a>
+      <a class="dashboard-button" href="{% url 'view_earned_tokens' %}">View Earned Tokens</a>
+    </div>
+
+    <div class="action-section">
+      <h3>Weather Data</h3><br/>
+      <p>City: {{ city_name }}</p>
+      <p>Temperature: {{ temperature }}</p>
+      <p>Humidity: {{ humidity }}</p>
+      <p>Weather State: {{ weather_state }}</p>
+    </div>
+
+
+  </div>
+  
+</div>
+
+
+<style>
+
+  /* Reset default margin and padding */
+  body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a base font size and family */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Center content on the page */
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  /* Style the dashboard summary section */
+  .dashboard-summary {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .summary-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+
+  .summary-item p{
+  font-size: 2em;
+  }
+  
+  /* Style the dashboard actions section */
+  .dashboard-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .action-section {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-bottom: 10px; /* Add margin between buttons */
+  }
+  
+  .dashboard-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the weather section */
+  .dashboard-weather {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-weather p {
+    padding: 6px;
+  }
+
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    .action-section {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+  
+  .action-section p{
+    padding-bottom: 4px;
+  }
+
+</style>
+
+{% endblock %}
+
+

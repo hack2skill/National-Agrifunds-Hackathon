@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2 style="text-align: center; padding-top: 2em; padding-bottom: 1em;">Create AgriToken</h2>
+  <form method="post">
+    {% csrf_token %}
+    
+    <!-- Display errors at the top of the form -->
+    {% if form.errors %}
+    <div class="form-errors" style="text-align: center; color: red;">
+      <p>Oops! There are some errors in the form:</p>
+      <ul>
+        {% for error in form.non_field_errors %}
+          <li>{{ error }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    
+    <label for="produce_type">Produce Type:</label>
+    <input type="text" id="produce_type" name="produce_type"><br>
+    <div class="error-message">
+      {% if form.produce_type.errors %}
+        {{ form.produce_type.errors|join:", " }}
+      {% endif %}
+    </div>
+    
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity"><br>
+    <div class="error-message">
+      {% if form.quantity.errors %}
+        {{ form.quantity.errors|join:", " }}
+      {% endif %}
+    </div>
+    <br/>
+    <label for="token_value">Token Value per Unit:</label>
+    <input type="number" id="token_value" name="token_value"><br>
+    <div class="error-message">
+      {% if form.token_value.errors %}
+        {{ form.token_value.errors|join:", " }}
+      {% endif %}
+    </div>
+    <br/>
+    <button type="submit">Create AgriToken</button>
+  </form>
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+{% endblock %}
+
+{% block content %}
+  <h2 style="text-align: center; padding-bottom: 1em;padding-top: 2em;">Farmer Registration</h2>
+  <form method="post">
+    {% csrf_token %}
+    
+    <!-- Display errors at the top of the form -->
+    {% if form.errors %}
+    <div class="form-errors">
+      <p>Oops! There are some errors in the form:</p>
+      <ul>
+        {% for error in form.non_field_errors %}
+          <li>{{ error }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    
+    <label for="{{ form.username.id_for_label }}">Username:</label>
+    {{ form.username }}
+    <div class="error-message">
+      {% if form.username.errors %}
+        {{ form.username.errors|join:", " }}
+      {% endif %}
+    </div>
+    
+    <label for="{{ form.email.id_for_label }}">Email:</label>
+    {{ form.email }}
+    <div class="error-message">
+      {% if form.email.errors %}
+        {{ form.email.errors|join:", " }}
+      {% endif %}
+    </div>
+    
+    <label for="{{ form.password1.id_for_label }}">Password:</label>
+    {{ form.password1 }}
+    <div class="error-message">
+      {% if form.password1.errors %}
+        {{ form.password1.errors|join:", " }}
+      {% endif %}
+    </div>
+    
+    <label for="{{ form.password2.id_for_label }}">Confirm Password:</label>
+    {{ form.password2 }}
+    <div class="error-message">
+      {% if form.password2.errors %}
+        {{ form.password2.errors|join:", " }}
+      {% endif %}
+    </div>
+    
+    <button type="submit">Register</button>
+  </form>
+{% endblock %}

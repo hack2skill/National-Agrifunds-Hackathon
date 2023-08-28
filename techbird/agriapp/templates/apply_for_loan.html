@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Apply for Loan</h2>
+  <form method="post">
+    {% csrf_token %}
+    <label for="amount">Loan Amount:</label>
+    <input type="number" id="amount" name="amount"><br>
+    <br/>
+    <button type="submit">Apply for Loan</button>
+  </form>
+<br/>
+<br/>
+  {% if loan_applications %}
+    <h3>Loan Applications</h3>
+    <ul class="loan-applications summary-item">
+      {% for loan_application in loan_applications %}
+        <li>Status: {{ loan_application.status }} - Amount: {{ loan_application.amount }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+<style>
+  h3{
+    text-align: center;
+  }
+  .summary-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .summary-item p{
+  font-size: 2em;
+  }
+</style>
+{% endblock %}

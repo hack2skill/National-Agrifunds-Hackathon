@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>View Earned Tokens</h2>
+  <ul>
+    {% for earned_token in earned_tokens %}
+      <li>{{ earned_token.practice.name }}: {{ earned_token.tokens_earned }} tokens</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
