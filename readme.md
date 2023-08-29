@@ -39,6 +39,13 @@ Secure Login and Sign-Up: NABARD PAY employs Firebase to ensure robust security 
 
 NABARD PAY is a testament to the transformative power of digital innovation in the financial sector. By amalgamating technological advancements with inclusive financial services, the app makes banking, payments, and government initiatives accessible to a wider population. It not only addresses urban needs but also empowers rural communities and agricultural stakeholders, contributing to financial growth and prosperity across the nation.
 
+
+![Screenshot 2023-08-27 131017](https://github.com/athrvadeshmukh/National-Agrifunds-Hackathon/assets/112002659/84b43d54-a1ca-4427-b534-04f02d0c8bf3)
+
+![Screenshot 2023-08-26 211759](https://github.com/athrvadeshmukh/National-Agrifunds-Hackathon/assets/112002659/e37ab054-cea8-47f7-bbe6-442ecfb0d201)
+
+![Screenshot 2023-08-27 131600](https://github.com/athrvadeshmukh/National-Agrifunds-Hackathon/assets/112002659/ab6197a3-c1e6-4855-ae91-dab073e5ca5c)
+
 ![image](https://github.com/athrvadeshmukh/National-Agrifunds-Hackathon/assets/112002659/4818c9c2-6e4b-437f-bdfb-bdf18d09455c)
 
   
