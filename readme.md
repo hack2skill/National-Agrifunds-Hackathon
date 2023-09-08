@@ -27,12 +27,17 @@ Design and implement a robust digital financial services platform that functions
 ## A Brief of the Prototype:
   NABARD PAY is a revolutionary mobile application that redefines the way individuals access financial services and engage with government initiatives. Seamlessly integrating a range of cutting-edge features, NABARD PAY aims to bridge the gap between traditional banking services and modern digital solutions. Here's a brief overview of the app's key features:
 E-Rupee Service: NABARD PAY introduces the concept of E-Rupee, enabling users to experience secure and convenient digital transactions. With this feature, users can easily transact, save, and manage their funds electronically, eliminating the need for physical currency.
+
 Pradhan Mantri Jan Dhan Yojana Application: The app offers an online application form for the Pradhan Mantri Jan Dhan Yojana, a government scheme aimed at providing financial inclusion to all citizens. Through NABARD PAY, individuals can conveniently apply for this scheme, streamlining the process and reducing paperwork.
 Offline UPI Payment via 99# USSD Code: NABARD PAY goes beyond the limitations of internet connectivity by introducing an offline UPI payment service using the *99# USSD code. Users can initiate transactions, check balances, and perform various banking tasks even without an active internet connection.
+
 QR Scan Service: The app simplifies peer-to-peer transactions with its QR scan service. Users can scan QR codes to seamlessly transfer funds between accounts, making payments, and engaging in other financial activities efficiently.
+
 Offline Mode with Firebase SDK: NABARD PAY ensures uninterrupted user experience even in areas with limited connectivity. Through Firebase SDK integration, the app caches user data and syncs it with the server once an internet connection is established, offering a seamless transition between online and offline modes.
+
 Health and Insurance Services: In addition to banking, NABARD PAY cares for users' holistic well-being. The app provides access to health and insurance services, allowing users to explore and secure suitable coverage for themselves and their families.
 Buy Seeds: Acknowledging the needs of the agricultural sector, NABARD PAY enables users to buy seeds digitally. This feature directly contributes to rural development and agriculture, aligning with NABARD's objectives.
+
 Account Balance and Fund Transfers: Users can easily view their account balance and effortlessly send money to their contacts. NABARD PAY prioritizes simplicity and speed in financial transactions.
 Add Money: The app simplifies the process of adding funds to one's account, whether for transactions, savings, or investment purposes.
 Secure Login and Sign-Up: NABARD PAY employs Firebase to ensure robust security for user accounts. The app features a user-friendly login and sign-up page, prioritizing data privacy and protection.
