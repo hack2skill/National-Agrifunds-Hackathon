@@ -10,10 +10,10 @@
 ## README.md must consist of the following information:
 
 #### Team Name - Cyber X
-1. ATHRVA DESHMUKH
-2. GOURAV KUSHWAHA 
-3. UJJWAL GUPTA
-4. SONU KUSHWAHA
+1. [ATHRVA DESHMUKH](https://github.com/athrvadeshmukh)
+2. [GOURAV KUSHWAHA](https://github.com/GOURAVKUSHWAHA-pro)
+3. [UJJWAL GUPTA](https://github.com/masterujjval)
+4. [SONU KUSHWAHA](https://github.com/Sonu7804)
 #### Problem Statement - Financial Inclusion in Remote Areas: Digital Financial Services for Unconnected Regions
 Objective:
 
